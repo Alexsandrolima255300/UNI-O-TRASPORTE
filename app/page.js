@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
+      <div className="ambient-particles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
       <header className="topbar">
         <Link className="brand" href="/">UNIÃO<span>TRANSPORTES</span></Link>
         <nav>
